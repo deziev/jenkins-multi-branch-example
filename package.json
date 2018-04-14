@@ -1,7 +1,6 @@
 {
   "name": "vk-board",
   "version": "0.1.0",
-  "description": "VK board - это интерактивная доска для группы в социальной сети \"вконтакте\". Реализована на основе возможностей VK-API",
   "main": "app/app.js",
   "scripts": {
     "app": "node dist/app.js",
@@ -11,16 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://deziev@bitbucket.org/deziev/vk-board.git"
+    "url": "git+https://github.com/deziev/jenkins-multi-branch-example.git"
   },
-  "keywords": [
-    "vk",
-    "vk-api",
-    "image-processing"
-  ],
   "author": "deziev",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/deziev/vk-board#readme",
   "dependencies": {
     "@types/node": "^7.0.29",
     "body-parser": "^1.17.2",
