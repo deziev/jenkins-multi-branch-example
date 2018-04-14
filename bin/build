@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+yarn install --pure-lockfile --force
+
+yarn compile

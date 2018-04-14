@@ -1,0 +1,32 @@
+{
+  "name": "vk-board",
+  "version": "0.1.0",
+  "description": "VK board - это интерактивная доска для группы в социальной сети \"вконтакте\". Реализована на основе возможностей VK-API",
+  "main": "app/app.js",
+  "scripts": {
+    "app": "node dist/app.js",
+    "compile": "./node_modules/.bin/tsc",
+    "lint": "./node_modules/.bin/tslint --project tsconfig.json --config tslint.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://deziev@bitbucket.org/deziev/vk-board.git"
+  },
+  "keywords": [
+    "vk",
+    "vk-api",
+    "image-processing"
+  ],
+  "author": "deziev",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/deziev/vk-board#readme",
+  "dependencies": {
+    "@types/node": "^7.0.29",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "tslint": "5.9.1",
+    "tslint-config-airbnb": "5.8.0",
+    "typescript": "2.8.1"
+  }
+}

@@ -1,0 +1,8 @@
+#IDE
+.vscode
+
+
+/node_modules
+
+# TypeScript
+/dist
